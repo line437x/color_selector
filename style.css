@@ -1,0 +1,22 @@
+.color_box {
+  border: solid;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 10%;
+}
+
+.color_select,
+.color_codes {
+  display: flex;
+  align-items: center;
+}
+
+.hex_code,
+.rgb_code,
+.hsl_code {
+  border-radius: 10%;
+  border: solid;
+  height: 20px;
+  width: 80px;
+}
