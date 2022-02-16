@@ -1,7 +1,13 @@
+h1,
+h2 {
+  font-family: "Century Gothic";
+  font-size: medium;
+}
+
 .color_box {
-  border: solid;
-  height: 200px;
-  width: 200px;
+  border: 1px solid;
+  height: 12rem;
+  width: 12rem;
   background-color: black;
   border-radius: 10%;
 }
@@ -15,8 +21,14 @@
 .hex_code,
 .rgb_code,
 .hsl_code {
-  border-radius: 10%;
-  border: solid;
-  height: 20px;
-  width: 80px;
+  text-align: center;
+  border: 1px solid;
+  width: 7rem;
+  margin: 1rem;
+}
+
+#color_value {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0.5rem;
 }
